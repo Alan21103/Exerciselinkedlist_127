@@ -109,7 +109,7 @@ bool CircularLinkedList::delNode() {
 	delete current;	//step 4
 	return true;
 }
-bool CircularLinkedList::traverse(){
+void CircularLinkedList::traverse(){
 	if (listEmpty()) {
 		cout << "\nList is empty\n";
 	}
