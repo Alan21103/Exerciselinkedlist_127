@@ -7,6 +7,7 @@ public:
 	int rollNumber;
 	string name;
 	Node* next;
+	Node* prev;
 };
 
 class CircularLinkedList {
